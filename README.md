@@ -36,7 +36,7 @@ bash
 Copy
 Edit
 sudo apt-get install tesseract-ocr
-3️⃣ Install Python dependencies
+## 3️⃣ Install Python dependencies
 Create and activate a virtual environment:
 
 bash
@@ -55,7 +55,7 @@ bash
 Copy
 Edit
 pip install streamlit opencv-python pytesseract pillow deep-translator numpy
-4️⃣ Running the app locally
+## 4️⃣ Running the app locally
 Open terminal in your project folder:
 
 bash
@@ -72,7 +72,7 @@ Allow camera access.
 
 Select OCR language, enter target translation language code, and point the camera at text.
 
-5️⃣ Push to GitHub
+## 5️⃣ Push to GitHub
 Initialize Git:
 
 bash
@@ -111,7 +111,7 @@ Edit
 git push -u origin main --force
 ⚠️ --force is safe if your remote repo is empty or only has a README.
 
-6️⃣ Deploy on Streamlit Cloud
+## 6️⃣ Deploy on Streamlit Cloud
 Go to Streamlit Community Cloud
 
 Sign in with GitHub
@@ -122,7 +122,7 @@ Click Deploy
 
 Your app will have a public URL
 
-7️⃣ Notes
+## 7️⃣ Notes
 Clear printed text works best for OCR.
 
 Use ISO language codes for translation: en (English), fr (French), hi (Hindi), es (Spanish), etc.
