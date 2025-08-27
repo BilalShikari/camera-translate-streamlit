@@ -6,6 +6,8 @@ import pytesseract
 import streamlit as st
 from deep_translator import GoogleTranslator
 
+# ✅ Point pytesseract to the correct binary in Streamlit Cloud
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 # ------------------------
 # Handle Tesseract path on Windows
 # ------------------------
